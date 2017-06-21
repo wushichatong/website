@@ -1120,9 +1120,10 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -6511,11 +6512,7 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .pull-right {
   float: right !important;
 }
