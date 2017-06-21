@@ -110,6 +110,19 @@ nav {
 .formStyle {
 	width: 100%;
 }
+.sectionRight .poem {
+	text-align: center;
+}
+.audio {
+	padding-left: 0px;
+	padding-right: 0%;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+
+
 
 @media (max-width: 650px){
 .asideLeft {
